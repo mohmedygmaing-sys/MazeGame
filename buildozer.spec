@@ -1,23 +1,14 @@
 [app]
-
-title = Maze Game
+title = MazeGame
 package.name = mazegame
-package.domain = org.mohmed
-
-source.dir = .
-source.include_exts = py,png,jpg,jpeg,wav,mp3
-
-source.main = crash.py
-
-version = 1.0
-
-requirements = python3,pygame
-
+package.domain = org.test
+source.include_exts = py,png,jpg,kv,atlas,mp3
+version = 0.1
+requirements = python3,kivy
 orientation = portrait
-
-fullscreen = 1
-
-[buildozer]
-
-log_level = 2
-warn_on_root = 1
+fullscreen = 0
+android.api = 33
+android.sdk = 33
+android.ndk = 25b
+android.gradle_dependencies = 
+p4a.branch = master
